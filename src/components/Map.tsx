@@ -69,7 +69,7 @@ const MapComponent: React.FC = () => {
     setMarkers([]);
   }, []);
 
-  const points = useMemo(
+  const points: any = useMemo(
     () =>
       markers.map((marker, index) => ({
         type: "Feature",
