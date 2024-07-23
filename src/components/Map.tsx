@@ -28,6 +28,7 @@ const initialViewState: ViewState = {
 const MapComponent: React.FC = () => {
   const [viewState, setViewState] = useState<ViewState>(initialViewState);
   const [markers, setMarkers] = useState<MarkerType[]>([]);
+  console.log(import.meta.env.VITE_GL_TOKEN);
 
   useEffect(() => {
     const loadMarkers = async () => {
