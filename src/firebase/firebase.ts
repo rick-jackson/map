@@ -3,11 +3,11 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_KEY,
-  authDomain: "map-markers-6f140.firebaseapp.com",
-  projectId: "map-markers-6f140",
-  storageBucket: "map-markers-6f140.appspot.com",
-  messagingSenderId: "1037826828906",
-  appId: "1:1037826828906:web:9744a7575e48f010fc7813",
+  authDomain: "map-markers-c3347.firebaseapp.com",
+  projectId: "map-markers-c3347",
+  storageBucket: "map-markers-c3347.firebasestorage.app",
+  messagingSenderId: "2390782251",
+  appId: "1:2390782251:web:50cc847aeee42421f6556e"
 };
 
 export const app = initializeApp(firebaseConfig);
